@@ -1,0 +1,20 @@
+INSERT OR IGNORE INTO solar_time
+	(
+		 [day]
+		,[sunrise]
+		,[sunset]
+		,[latitude]
+		,[longitude]
+		,[offset]
+		,[daylight_savings]
+	)	
+	VALUES 
+	(
+		  ?
+		 ,?
+		 ,?
+		 ,?
+		 ,?
+		 ,?
+		 ,?
+	);
